@@ -47,7 +47,7 @@ while original repo
 	--http-uwsgi-temp-path=/var/lib/nginx/tmp/uwsgi \
 	--http-scgi-temp-path=/var/lib/nginx/tmp/scgi \
 	--pid-path=/var/run/nginx.pid --lock-path=/var/lock/subsys/nginx \
-	--user=nginx --group=nginx --with-file-aio --without-ipv6 \
+	--user=nginx --group=nginx --with-file-aio --with-ipv6 \
 	--with-http_ssl_module --with-http_realip_module \
 	--with-http_addition_module --with-http_xslt_module \
 	--with-http_image_filter_module --with-http_geoip_module
